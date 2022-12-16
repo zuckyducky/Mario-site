@@ -1,0 +1,54 @@
+body {
+    background-color:#769df3;
+    color: rgb(70, 51, 73);
+    font-family: "Serif", "Sans-Serif", "Monospace";}
+
+
+ul.horizontal {
+    text-align: center;
+    font-size: 20px;}
+
+
+ul.horizontal > li {
+    display: inline-block;
+    padding: 0px 40px;}
+
+
+img.powerup_pic {
+    width: 200px;
+    height: 200px;
+    object-fit:contain;}
+
+
+img.kart_pic {
+    width: 300px;
+    height: 200px;
+    object-fit:contain;
+}
+
+
+.topright {
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    font-size: 20px;
+    background-color: white;
+    padding:10px;
+}
+
+.odd {
+    background-color:rgb(239, 88, 88);
+    color: black;
+}
+
+.even {
+    background-color: rgb(92, 228, 92);
+    color: rgb(84, 44, 44);
+}
+
+
+iframe.centered { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
